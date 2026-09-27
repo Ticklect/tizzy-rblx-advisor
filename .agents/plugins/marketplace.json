@@ -1,0 +1,12 @@
+{
+  "name": "tizzy-rblx-advisor",
+  "interface": { "displayName": "Tizzy RBLX Advisor" },
+  "plugins": [
+    {
+      "name": "tizzy-rblx-advisor",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

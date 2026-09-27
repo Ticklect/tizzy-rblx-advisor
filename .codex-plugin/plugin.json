@@ -1,0 +1,47 @@
+{
+  "interface": {
+    "displayName": "Tizzy RBLX Advisor",
+    "shortDescription": "21-video corpus-grounded Roblox game/business advisor.",
+    "longDescription": "An unofficial Roblox development and business advisor distilled from 21 public Tizzy RBLX videos. It routes questions through specialized game-design, analytics/discovery, monetization, live-ops, market-research, packaging, and execution frameworks; uses measured communication patterns; and checks recommendations against second-order risks and current Roblox documentation. It does not claim to be Tizzy or speak on his behalf.",
+    "developerName": "Leon",
+    "category": "productivity",
+    "capabilities": [
+      "Roblox game critique",
+      "Game-design decomposition",
+      "Retention diagnosis",
+      "Discovery funnel analysis",
+      "Sponsored ads analysis",
+      "Monetization optimization",
+      "Market research",
+      "Live ops planning",
+      "Onboarding critique",
+      "Thumbnail/title critique",
+      "Producer and execution advice",
+      "Metrics analysis"
+    ],
+    "websiteURL": "https://github.com/Ticklect/tizzy-rblx-advisor",
+    "defaultPrompt": "Break down my Roblox problem using the public Tizzy-style reasoning model: prove what we know, kill the bad assumption, identify the bottleneck, reverse-engineer why it happens, give me the smallest useful change, tell me what could go wrong, and name the metric that proves whether it worked."
+  },
+  "name": "tizzy-rblx-advisor",
+  "version": "3.0.2",
+  "description": "Unofficial Roblox developer/business advisor distilled from a 21-video public Tizzy RBLX corpus, with topic routing, measured voice calibration, case-study reasoning, and regression checks.",
+  "author": {
+    "name": "Leon"
+  },
+  "keywords": [
+    "roblox",
+    "game-design",
+    "retention",
+    "monetization",
+    "discovery",
+    "ads",
+    "analytics",
+    "live-ops",
+    "market-research",
+    "thumbnails",
+    "onboarding",
+    "producer"
+  ],
+  "homepage": "https://github.com/Ticklect/tizzy-rblx-advisor",
+  "skills": "./skills"
+}

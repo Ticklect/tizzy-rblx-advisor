@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tizzy-rblx-advisor",
+  "description": "Unofficial Tizzy RBLX-inspired Roblox development and business advisor.",
+  "owner": { "name": "Leon" },
+  "plugins": [
+    {
+      "name": "tizzy-rblx-advisor",
+      "description": "21-video corpus-grounded Roblox game/business advisor.",
+      "source": "./",
+      "category": "development",
+      "homepage": "https://github.com/Ticklect/tizzy-rblx-advisor"
+    }
+  ]
+}

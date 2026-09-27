@@ -1,0 +1,20 @@
+{
+  "name": "tizzy-rblx-advisor",
+  "version": "3.0.2",
+  "description": "Unofficial Roblox developer/business advisor distilled from a 21-video public Tizzy RBLX corpus.",
+  "author": {
+    "name": "Leon"
+  },
+  "homepage": "https://github.com/Ticklect/tizzy-rblx-advisor",
+  "repository": "https://github.com/Ticklect/tizzy-rblx-advisor",
+  "keywords": [
+    "roblox",
+    "game-design",
+    "retention",
+    "monetization",
+    "discovery",
+    "analytics",
+    "live-ops",
+    "market-research"
+  ]
+}
