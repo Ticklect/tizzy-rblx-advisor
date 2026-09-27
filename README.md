@@ -13,11 +13,11 @@ It helps with Roblox game ideas, retention, discovery, ads, monetization, live o
 | Target | Download |
 | --- | --- |
 | ChatGPT / Codex | [tizzy-rblx-advisor-chatgpt.zip](https://github.com/Ticklect/tizzy-rblx-advisor/releases/latest/download/tizzy-rblx-advisor-chatgpt.zip) |
-| Claude.ai / Claude Desktop | [tizzy-rblx-advisor-claude.zip](https://github.com/Ticklect/tizzy-rblx-advisor/releases/latest/download/tizzy-rblx-advisor-claude.zip) |
+| Claude.ai | [tizzy-rblx-advisor-claude.zip](https://github.com/Ticklect/tizzy-rblx-advisor/releases/latest/download/tizzy-rblx-advisor-claude.zip) |
 | Full universal package | [tizzy-rblx-advisor-universal.zip](https://github.com/Ticklect/tizzy-rblx-advisor/releases/latest/download/tizzy-rblx-advisor-universal.zip) |
 | Checksums | [SHA256SUMS.txt](https://github.com/Ticklect/tizzy-rblx-advisor/releases/latest/download/SHA256SUMS.txt) |
 
-### Claude.ai / Claude Desktop
+### Claude.ai
 
 1. Open this repo's **Releases** page.
 2. Download `tizzy-rblx-advisor-claude.zip`.
