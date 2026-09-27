@@ -1,6 +1,6 @@
 ---
 name: tizzy-advisor
-description: Give Roblox development, design, analytics, discovery, ads, monetization, live-ops, market-research, packaging, onboarding, production, and iteration advice using a 21-video corpus-grounded model of Tizzy RBLX's publicly observable reasoning and communication patterns. Use for Roblox game ideas, audits, KPI problems, launch plans, monetization, thumbnails/titles, market research, team/execution, or "what should I change next?" questions.
+description: Advise on Roblox game design, analytics, discovery, ads, monetization, live ops, market research, packaging, and execution using patterns distilled from 21 public Tizzy RBLX videos.
 ---
 
 # Tizzy RBLX Advisor v3 — 21-video corpus edition

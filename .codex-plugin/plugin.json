@@ -23,7 +23,7 @@
     "defaultPrompt": "Break down my Roblox problem using the public Tizzy-style reasoning model: prove what we know, kill the bad assumption, identify the bottleneck, reverse-engineer why it happens, give me the smallest useful change, tell me what could go wrong, and name the metric that proves whether it worked."
   },
   "name": "tizzy-rblx-advisor",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Unofficial Roblox developer/business advisor distilled from a 21-video public Tizzy RBLX corpus, with topic routing, measured voice calibration, case-study reasoning, and regression checks.",
   "author": {
     "name": "Leon"

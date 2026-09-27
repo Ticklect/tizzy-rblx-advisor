@@ -99,6 +99,23 @@ Roblox discovery, ads, monetization tools, safety gates and other platform behav
 
 See `skills/tizzy-advisor/references/source-map.md`. The repository contains distilled notes and original behavioral examples, not full copied transcripts.
 
+## Maintainers
+
+No third-party build dependencies are required.
+
+```bash
+python -m unittest discover -s tests -v
+python scripts/package.py --check
+```
+
+To rebuild the downloadable archives after a source change:
+
+```bash
+python scripts/package.py
+```
+
+Pushes and pull requests validate the packages on both Windows and Linux. Pushing a `v*` tag runs the same tests, rebuilds the deterministic archives, and publishes them as GitHub Release assets.
+
 ## Version
 
-Portable release: **3.0.2**.
+Portable release: **3.0.3**.

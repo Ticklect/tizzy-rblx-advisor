@@ -1,0 +1,33 @@
+name: Publish release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Build release packages
+        run: python scripts/package.py
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        shell: bash
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" dist/tizzy-rblx-advisor-chatgpt.zip dist/tizzy-rblx-advisor-claude.zip dist/tizzy-rblx-advisor-universal.zip dist/SHA256SUMS.txt --clobber
+          else
+            gh release create "$TAG" dist/tizzy-rblx-advisor-chatgpt.zip dist/tizzy-rblx-advisor-claude.zip dist/tizzy-rblx-advisor-universal.zip dist/SHA256SUMS.txt --generate-notes --title "Tizzy RBLX Advisor $TAG"
+          fi

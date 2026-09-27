@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "tizzy-rblx-advisor",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Unofficial Roblox developer/business advisor distilled from a 21-video public Tizzy RBLX corpus, with topic routing, measured voice calibration, case-study reasoning, and regression checks.",
   "author": {
     "name": "Leon"
