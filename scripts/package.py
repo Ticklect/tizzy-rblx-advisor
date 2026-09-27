@@ -72,6 +72,7 @@ def zip_bytes(entries: list[tuple[str, bytes]]) -> bytes:
     ) as zf:
         for arcname, data in sorted(entries, key=lambda item: item[0]):
             info = zipfile.ZipInfo(arcname, date_time=FIXED_TIME)
+            info.create_system = 3
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = 0o100644 << 16
             zf.writestr(info, data, compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)

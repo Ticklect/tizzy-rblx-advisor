@@ -54,6 +54,18 @@ class DistributionTests(unittest.TestCase):
             _, data = module.file_entry(path, "sample.md")
             self.assertEqual(data, b"a\nb\n")
 
+    def test_zip_metadata_is_os_independent(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            result = subprocess.run(
+                [sys.executable, str(ROOT / "scripts" / "package.py"), "--output", tmp],
+                cwd=ROOT,
+                capture_output=True,
+                text=True,
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            for archive in Path(tmp).glob("*.zip"):
+                with zipfile.ZipFile(archive) as zf:
+                    self.assertEqual({info.create_system for info in zf.infolist()}, {3})
     def test_packager_builds_platform_specific_archives(self):
         with tempfile.TemporaryDirectory() as tmp:
             result = subprocess.run(
