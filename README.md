@@ -8,6 +8,15 @@ It helps with Roblox game ideas, retention, discovery, ads, monetization, live o
 
 ## Download / install
 
+### One-click downloads
+
+| Target | Download |
+| --- | --- |
+| ChatGPT / Codex | [tizzy-rblx-advisor-chatgpt.zip](https://github.com/Ticklect/tizzy-rblx-advisor/releases/latest/download/tizzy-rblx-advisor-chatgpt.zip) |
+| Claude.ai / Claude Desktop | [tizzy-rblx-advisor-claude.zip](https://github.com/Ticklect/tizzy-rblx-advisor/releases/latest/download/tizzy-rblx-advisor-claude.zip) |
+| Full universal package | [tizzy-rblx-advisor-universal.zip](https://github.com/Ticklect/tizzy-rblx-advisor/releases/latest/download/tizzy-rblx-advisor-universal.zip) |
+| Checksums | [SHA256SUMS.txt](https://github.com/Ticklect/tizzy-rblx-advisor/releases/latest/download/SHA256SUMS.txt) |
+
 ### Claude.ai / Claude Desktop
 
 1. Open this repo's **Releases** page.
